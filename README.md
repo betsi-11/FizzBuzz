@@ -3,24 +3,24 @@ Displaying 1-100 but instead of numbers that are multiples of 3 printing Fizz, m
 
 php code
 
-for ($i=0; $i<=100; $i++){
+for ($i=1; $i<=100; $i++){
 
     if($i % 3==0 && $i % 5==0){
     
-        echo "FizzBuzz \n";
+        echo "FizzBuzz <br>";
     }
     
     else if($i % 3==0){
-        echo "Fizz \n";
+        echo "Fizz <br>";
     }
     
     else if($i % 5==0){
-        echo "Buzz \n";
+        echo "Buzz <br>";
     }
             
     else {
         echo $i;
-        echo "\n";
+        echo "<br>";
     }
 
 }
